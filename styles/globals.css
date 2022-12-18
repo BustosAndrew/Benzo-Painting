@@ -21,6 +21,7 @@ a {
 	padding: 10px;
 	border-radius: 25px;
 	font-weight: bold;
+	color: black;
 }
 
 @media (prefers-color-scheme: dark) {
