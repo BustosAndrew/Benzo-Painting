@@ -118,7 +118,7 @@ export default function Home() {
 				<div className={styles.reviews}>
 					<div
 						className={styles.center_content}
-						style={{ marginBottom: "2rem" }}
+						// style={{ marginBottom: "2rem" }}
 					>
 						<h3>What Our Clients Are Saying</h3>
 						<p>
@@ -127,9 +127,9 @@ export default function Home() {
 							this to anyone who needs an excellent painting service.”
 						</p>
 						<br />
-						<Link href='/reviews' className='button'>
+						{/* <Link href='/reviews' className='button'>
 							Read More
-						</Link>
+						</Link> */}
 					</div>
 				</div>
 				<div className={styles.contact}>
