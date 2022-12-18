@@ -57,11 +57,11 @@ export const Form = ({ contact_styles }) => {
 						className={contact_styles.textfield}
 						pattern='\d{3}-\d{3}-\d{4}'
 						placeholder='xxx-xxx-xxxx'
-						// onInvalid={(e) =>
-						// 	e.target.setCustomValidity(
-						// 		"Please enter phone number in the correct format: xxx-xxx-xxxx"
-						// 	)
-						// }
+						onInvalid={(e) =>
+							e.target.setCustomValidity(
+								"Please enter phone number in the correct format: xxx-xxx-xxxx"
+							)
+						}
 					/>
 					<br />
 					<h3>Email</h3>
