@@ -45,7 +45,7 @@ export default function Home() {
 						<h3>Benzo Painting</h3>
 						<p>
 							At Benzo Paint Service, customer satisfaction is our top priority.
-							We take pride in our work and strive to exceed our clients'
+							We take pride in our work and strive to exceed our clients&apos;
 							expectations on every job. Contact us today to schedule a
 							consultation and let us help transform your space with a fresh
 							coat of paint.
