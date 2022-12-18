@@ -49,7 +49,7 @@ export const Form = ({ contact_styles }) => {
 					<br />
 					<h3>Phone</h3>
 					<input
-						type='tel'
+						type='text'
 						id='phone'
 						name='phone'
 						required
@@ -92,7 +92,6 @@ export const Form = ({ contact_styles }) => {
 						id='address-line2'
 						name='address-line2'
 						autoComplete='address-line2'
-						required
 						enterKeyHint='next'
 						placeholder='Address line 2'
 						className={contact_styles.textfield}
