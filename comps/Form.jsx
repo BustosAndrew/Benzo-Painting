@@ -55,13 +55,13 @@ export const Form = ({ contact_styles }) => {
 						required
 						enterKeyHint='next'
 						className={contact_styles.textfield}
-						pattern='[0-9]{3}-[0-9]{3}-[0-9]{4}'
+						pattern='\d{3}-\d{3}-\d{4}'
 						placeholder='xxx-xxx-xxxx'
-						onInvalid={(e) =>
-							e.target.setCustomValidity(
-								"Please enter phone number in the correct format: xxx-xxx-xxxx"
-							)
-						}
+						// onInvalid={(e) =>
+						// 	e.target.setCustomValidity(
+						// 		"Please enter phone number in the correct format: xxx-xxx-xxxx"
+						// 	)
+						// }
 					/>
 					<br />
 					<h3>Email</h3>
