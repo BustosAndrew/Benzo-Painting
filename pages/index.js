@@ -2,6 +2,7 @@ import Head from "next/head"
 import Image from "next/image"
 import styles from "../styles/Home.module.css"
 import Link from "next/link"
+import { Accordion } from "../comps/Accordion"
 
 export default function Home() {
 	return (
@@ -42,14 +43,13 @@ export default function Home() {
 				/>
 				<div className={styles.quick_info}>
 					<div className={styles.center_content}>
-						<h3>Benzo Painting</h3>
-						<p>
+						<h3>
 							At Benzo Paint Service, customer satisfaction is our top priority.
 							We take pride in our work and strive to exceed our clients&apos;
 							expectations on every job. Contact us today to schedule a
 							consultation and let us help transform your space with a fresh
 							coat of paint.
-						</p>
+						</h3>
 					</div>
 				</div>
 				<div className={styles.services}>
@@ -67,6 +67,11 @@ export default function Home() {
 							<div className={styles.service}>
 								<div>
 									<h4>Interior Painting</h4>
+									{/* <Accordion
+										content={`Interior painting includes the right primer (if needed) for
+										the job and the desired paint. Before anything we prep the
+										area to keep it clean so you dont worry about a mess.`}
+									/> */}
 									<p>
 										Interior painting includes the right primer (if needed) for
 										the job and the desired paint. Before anything we prep the
@@ -80,6 +85,11 @@ export default function Home() {
 							<div className={styles.service}>
 								<div>
 									<h4>Exterior Painting</h4>
+									{/* <Accordion
+										content={`The chosen area for paint will be pressure washed to ensure
+										a clean surface. High quality primer and desired paint will
+										then be used to keep the quality for as long as possible.`}
+									/> */}
 									<p>
 										The chosen area for paint will be pressure washed to ensure
 										a clean surface. High quality primer and desired paint will
@@ -93,6 +103,12 @@ export default function Home() {
 							<div className={styles.service}>
 								<div>
 									<h4>Wallpaper Service</h4>
+									{/* <Accordion
+										content={`The area will be prepped correctly before applying
+										wallpaper. Then a wall size primer/sizing product will be
+										used before laying out the wallpaper. Everything will be
+										seamless.`}
+									/> */}
 									<p>
 										The area will be prepped correctly before applying
 										wallpaper. Then a wall size primer/sizing product will be
@@ -107,6 +123,11 @@ export default function Home() {
 							<div className={styles.service}>
 								<div>
 									<h4>Drywall Repair</h4>
+									{/* <Accordion
+										content={`We can repair holes in the walls, any size and color match
+										it to the existing color. For drywall installation please
+										contact us with the project.`}
+									/> */}
 									<p>
 										We can repair holes in the walls, any size and color match
 										it to the existing color. For drywall installation please
