@@ -26,6 +26,11 @@ a {
 	color: black;
 }
 
+.button:hover {
+	color: #0026ff;
+	border-color: #0026ff;
+}
+
 @media (prefers-color-scheme: dark) {
 	html {
 		/* color-scheme: dark; */

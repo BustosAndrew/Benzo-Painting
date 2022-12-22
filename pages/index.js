@@ -65,52 +65,57 @@ export default function Home() {
 						</p>
 						<div className={styles.service_grid}>
 							<div className={styles.service}>
-								<h3>Interior Painting</h3>
-								<p>
-									Interior painting includes the right primer (if needed) for
-									the job and the desired paint. Before anything we prep the
-									area to keep it clean so you dont worry about a mess.
-								</p>
-								<br />
-								<Link href='/contact' className='button'>
-									Get A Quote
-								</Link>
+								<div>
+									<h4>Interior Painting</h4>
+									<p>
+										Interior painting includes the right primer (if needed) for
+										the job and the desired paint. Before anything we prep the
+										area to keep it clean so you dont worry about a mess.
+									</p>
+									<Link href='/contact' className='button'>
+										Get A Quote
+									</Link>
+								</div>
 							</div>
 							<div className={styles.service}>
-								<h3>Exterior Painting</h3>
-								<p>
-									The chosen area for paint will be pressure washed to ensure a
-									clean surface. High quality primer and desired paint will then
-									be used to keep the quality for as long as possible.
-								</p>
-								<br />
-								<Link href='/contact' className='button'>
-									Get A Quote
-								</Link>
+								<div>
+									<h4>Exterior Painting</h4>
+									<p>
+										The chosen area for paint will be pressure washed to ensure
+										a clean surface. High quality primer and desired paint will
+										then be used to keep the quality for as long as possible.
+									</p>
+									<Link href='/contact' className='button'>
+										Get A Quote
+									</Link>
+								</div>
 							</div>
 							<div className={styles.service}>
-								<h3>Wallpaper Service</h3>
-								<p>
-									The area will be prepped correctly before applying wallpaper.
-									Then a wall size primer/sizing product will be used before
-									laying out the wallpaper. Everything will be seamless.
-								</p>
-								<br />
-								<Link href='/contact' className='button'>
-									Get A Quote
-								</Link>
+								<div>
+									<h4>Wallpaper Service</h4>
+									<p>
+										The area will be prepped correctly before applying
+										wallpaper. Then a wall size primer/sizing product will be
+										used before laying out the wallpaper. Everything will be
+										seamless.
+									</p>
+									<Link href='/contact' className='button'>
+										Get A Quote
+									</Link>
+								</div>
 							</div>
 							<div className={styles.service}>
-								<h3>Drywall Repair</h3>
-								<p>
-									We can repair holes in the walls , any size and color match it
-									to the existing color. For drywall installation please contact
-									us with the project.
-								</p>
-								<br />
-								<Link href='/contact' className='button'>
-									Get A Quote
-								</Link>
+								<div>
+									<h4>Drywall Repair</h4>
+									<p>
+										We can repair holes in the walls, any size and color match
+										it to the existing color. For drywall installation please
+										contact us with the project.
+									</p>
+									<Link href='/contact' className='button'>
+										Get A Quote
+									</Link>
+								</div>
 							</div>
 						</div>
 					</div>

@@ -42,7 +42,7 @@ const Contact = () => {
 								backgroundColor: "white",
 								textAlign: "center",
 								width: "100%",
-								boxShadow: "2px 5px 10px gray",
+								// boxShadow: "2px 5px 10px gray",
 								borderRadius: 10,
 							}}
 						>
