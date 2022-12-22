@@ -25,7 +25,7 @@ const Contact = () => {
 				{/* <Link href='/about'>About</Link>
 				<Link href='/services'>Services</Link>
 				<Link href='/reviews'>Testimonies</Link> */}
-				<Link href='/contact'>Contact Us</Link>
+				<Link href='#contact'>Contact Us</Link>
 				<Link href='/contact' className='button' id={styles["nav-btn"]}>
 					Get A Quote
 				</Link>
@@ -42,24 +42,30 @@ const Contact = () => {
 								backgroundColor: "white",
 								textAlign: "center",
 								width: "100%",
-								// boxShadow: "2px 5px 10px gray",
 								borderRadius: 10,
 							}}
 						>
 							<h3>Contact Us Now</h3>
 							<p>benzopainting@gmail.com</p>
-							<h3>(209) 403 7980</h3>
+							<h3>
+								<a style={{ color: "#0026ff" }} href='tel:2094037980'>
+									(209) 403 7980
+								</a>
+							</h3>
 						</div>
 						<div></div>
 					</div>
 				</div>
-				<div className={styles.contact}>
+				<div id='contact' className={styles.contact}>
 					<div className={styles.center_content}>
 						<h3>Contact Us</h3>
 						<p>
-							For more help please contact us at (209) 403 7980. For other
-							questions or projects that you need help with, please email us
-							with the information at benzopainting@gmail.com.
+							For more help please contact us at&nbsp;
+							<a style={{ color: "#0026ff" }} href='tel:2094037980'>
+								(209) 403 7980
+							</a>
+							. For other questions or projects that you need help with, please
+							email us with the information at benzopainting@gmail.com.
 						</p>
 						<p>A representative will respond in less than 24 hours.</p>
 					</div>
@@ -83,8 +89,12 @@ const Contact = () => {
 							<div style={{ marginLeft: "1rem" }}>
 								<h3>Contact</h3>
 								<p style={{ lineHeight: 2 }}>
-									(209) 403 7980
-									<br />
+									<a
+										style={{ color: "#0026ff", display: "block" }}
+										href='tel:2094037980'
+									>
+										(209) 403 7980
+									</a>
 									benzopainting@gmail.com
 								</p>
 							</div>
