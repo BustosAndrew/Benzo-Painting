@@ -15,8 +15,8 @@ export default function Home() {
 			<nav className={styles.nav}>
 				<Link href='/'>Home</Link>
 				{/* <Link href='/about'>About</Link>
-				<Link href='/services'>Services</Link>
-				<Link href='/reviews'>Testimonies</Link> */}
+				<Link href='/services'>Services</Link> */}
+				<Link href='/testimonies'>Testimonies</Link>
 				<Link href='#contact'>Contact Us</Link>
 				<Link href='/contact' className='button' id={styles["nav-btn"]}>
 					Get A Quote
