@@ -1,6 +1,6 @@
 import { SMTPClient } from "emailjs"
 
-export default function handler(req, res) {
+export default async function handler(req, res) {
 	const { email, name, phone, address, message } = req.body
 
 	const client = new SMTPClient({
@@ -11,7 +11,7 @@ export default function handler(req, res) {
 	})
 
 	try {
-		client.send({
+		await client.sendAsync({
 			text: `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\nAddress: ${address}\nMessage:\n${message}`,
 			from: "benzopainting@gmail.com",
 			to: "benzopainting@gmail.com",
