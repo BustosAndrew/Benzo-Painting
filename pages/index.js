@@ -9,6 +9,10 @@ export default function Home() {
 			<Head>
 				<title>Benzo Painting</title>
 				<meta name='description' content='Benzo Painting Services' />
+				<meta
+					name='keywords'
+					content='painting, drywall, interior, exterior'
+				></meta>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<nav className={styles.nav}>
