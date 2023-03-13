@@ -1,61 +1,27 @@
 import Head from "next/head"
 import Image from "next/image"
 import styles from "../styles/Home.module.css"
-import contact_styles from "../styles/Contact.module.css"
-import { Form } from "../comps/Form"
 import Link from "next/link"
 
-const Contact = () => {
+const Testimonies = () => {
 	return (
-		<div className={styles.container}>
+		<div>
 			<Head>
 				<title>Benzo Painting</title>
 				<meta name='description' content='Contact Benzo Painting Services' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-			<style jsx>{`
-				@media (max-width: 600px) {
-					#fname {
-						margin-bottom: 10px;
-					}
-				}
-			`}</style>
 			<nav className={styles.nav}>
 				<Link href='/'>Home</Link>
 				{/* <Link href='/about'>About</Link>
 				<Link href='/services'>Services</Link> */}
-				{/* <Link href='/testimonies'>Testimonies</Link> */}
+				<Link href='/testimonies'>Testimonies</Link>
 				<Link href='#contact'>Contact Us</Link>
 				<Link href='/contact' className='button' id={styles["nav-btn"]}>
 					Get A Quote
 				</Link>
 			</nav>
 			<main className={styles.main}>
-				<div className={contact_styles.content}>
-					<div className={contact_styles.form_area}>
-						<h2>Send Us a Message</h2>
-						<Form contact_styles={contact_styles} />
-					</div>
-					<div className={contact_styles.contact_area}>
-						<div
-							style={{
-								backgroundColor: "white",
-								textAlign: "center",
-								width: "100%",
-								borderRadius: 10,
-							}}
-						>
-							<h3>Contact Us Now</h3>
-							<p>benzopainting@gmail.com</p>
-							<h3>
-								<a style={{ color: "#0026ff" }} href='tel:2094037980'>
-									(209) 403 7980
-								</a>
-							</h3>
-						</div>
-						<div></div>
-					</div>
-				</div>
 				<div id='contact' className={styles.contact}>
 					<div className={styles.center_content}>
 						<h3>Contact Us</h3>
@@ -134,4 +100,4 @@ const Contact = () => {
 	)
 }
 
-export default Contact
+export default Testimonies

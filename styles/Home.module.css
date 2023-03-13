@@ -28,14 +28,19 @@
 	text-align: center;
 }
 
+.nav a:hover {
+	color: #0026ff;
+}
+
 #nav-btn {
 	padding: 10px;
 	margin: auto 0;
+	margin-left: 10px;
 }
 
 .center_content {
 	margin: 0 auto;
-	max-width: 770px;
+	max-width: 900px;
 }
 
 .intro {
@@ -72,13 +77,39 @@
 .service_grid {
 	display: flex;
 	align-items: flex-start;
-	justify-content: space-between;
+	justify-content: flex-start;
 	flex-wrap: wrap;
 	margin-bottom: 2rem;
+	gap: 1rem;
 }
 
 .service {
-	max-width: 170px;
+	max-width: 210px;
+	background-color: white;
+	padding: 1rem;
+	border-radius: 10px;
+	min-height: 390px;
+	max-height: 390px;
+	width: 100%;
+}
+
+.service div {
+	display: flex;
+	position: relative;
+	align-items: space-between;
+	flex-direction: column;
+	min-height: inherit;
+}
+
+.service div a {
+	text-align: center;
+	margin-top: auto;
+	position: absolute;
+	bottom: 13%;
+}
+
+.service .button {
+	justify-self: flex-end;
 }
 
 .reviews {
@@ -126,6 +157,22 @@
 	.grid {
 		width: 100%;
 		flex-direction: column;
+	}
+
+	.service {
+		max-width: 100%;
+		min-height: 5%;
+		max-height: 5%;
+	}
+
+	.service div {
+		position: static;
+	}
+
+	.service div a {
+		position: static;
+		margin-right: auto;
+		margin-top: 5%;
 	}
 }
 
