@@ -12,7 +12,7 @@ export default function Home() {
 				<meta name='description' content='Benzo Painting Services' />
 				<meta
 					name='keywords'
-					content='painting, drywall, interior, exterior, services'
+					content='benzo, painting, drywall, interior, exterior, services'
 				></meta>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
