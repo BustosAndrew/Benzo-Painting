@@ -167,8 +167,8 @@ export default function Home() {
 						<h3>Contact Us</h3>
 						<p>
 							For more help please contact us at&nbsp;
-							<a style={{ color: "#0026ff" }} href='tel:2094037980'>
-								(209) 403 7980
+							<a style={{ color: "#0026ff" }} href='tel:5106727896'>
+								(510) 672-7896
 							</a>
 							. For other questions or projects that you need help with, please
 							email us with the information at benzopainting@gmail.com.
@@ -198,9 +198,9 @@ export default function Home() {
 								<p style={{ lineHeight: 2 }}>
 									<a
 										style={{ color: "#0026ff", display: "block" }}
-										href='tel:2094037980'
+										href='tel:5106727896'
 									>
-										(209) 403 7980
+										(510) 672-7896
 									</a>
 									benzopainting@gmail.com
 								</p>
